@@ -5,7 +5,7 @@
 * OSCで受け取ったパスに存在する画像ファイルに対して、configのoverlayに指定した画像をオーバーレイ処理します
 
 ## 使い方
-* `node.js`を導入して、本プロジェクトをDL、`npm install`を実行し、`node osc-rotate.js`で実行する
+* `node.js`を導入して、本プロジェクトをDL、`npm install`を実行し、`node vrc-frameoverlay.js`で実行する
   * ex.
   ```
   git clone https://github.com/thakyuu/vrc-frameoverlay.git
