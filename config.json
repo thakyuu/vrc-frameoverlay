@@ -1,0 +1,12 @@
+{
+	"configVersion": "0.0.1",
+	"log": {
+		"level": "info"
+	},
+	"osc": {
+		"image":{
+			"listenPort": 39970
+		}
+	},
+	"overlay": "overlay.png"
+}
