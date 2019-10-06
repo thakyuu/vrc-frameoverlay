@@ -38,7 +38,8 @@ const oscImageServer = new osc.Server(config.osc.image.listenPort);
 oscImageServer.on('message', (msg, rinfo) => {
 	imgOverlay(msg[1])
 })
-logger.info(config.osc.image.listenPort + 'で待受を開始しました。')
+logger.info('オーバーレイ処理サーバを起動します。')
+logger.info('ポート' + config.osc.image.listenPort + 'でOSCの待受を開始しました。')
 
 
 function imgOverlay(imgPath){
